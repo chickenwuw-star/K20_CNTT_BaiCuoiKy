@@ -20,3 +20,7 @@ Tất cả các thay đổi chính của dự án được ghi nhận lại tạ
 ## [Update 5] - Thêm file ket-qua.html
 * Thêm `ket-qua.html` để sau khi gửi lời nhắn trong phần liên hệ của `index.html` sẽ có kết quả
 * Thêm `ket-qua.html` vô phần `README.md` để có đầy đủ tệp 
+## [Update 5.1] - Thay đổi cấu trúc css và thêm ket-qua.html
+* Thêm `ket-qua.html` vì bị lỗi đuôi .html thành .htlm nên bị lỗi và sửa lại file
+* Thêm phần trang trí của `ket-qua.html` trong `slyle.css` vào cuối trang và có chú thích  
+`/*phần của trang kết quả*/`

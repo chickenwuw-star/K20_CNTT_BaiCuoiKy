@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kết quả liên hệ - Mai Xuân Toàn</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="thanhdieuhuong">
+    <div class="khungchua thanhdieuhuongbentrong">
+      <a href="index.html" class="thuonghieu" aria-label="Trang chủ Mai Xuân Toàn">
+        <span class="thuonghieudau" aria-hidden="true">🧑</span>
+        <span class="thuonghieuchu">Mai Xuân Toàn </span>
+      </a>
+
+      <nav class="dieuhuong" aria-label="Điều hướng chính">
+        <a href="index.html#trangchu" class="dieuhuonglienket">Trang chủ</a>
+        <a href="index.html#about" class="dieuhuonglienket">Giới thiệu</a>
+        <a href="index.html#skills" class="dieuhuonglienket">Kỹ năng</a>
+        <a href="index.html#projects" class="dieuhuonglienket">Dự án</a>
+        <a href="index.html#contact" class="dieuhuonglienket">Liên hệ</a>
+      </nav>
+
+      <div class="thanhdieuhuongthaotac">
+        <a href="https://github.com/chickenwuw-star/K20_CNTT_BaiCuoiKy.git" target="_blank" rel="noopener noreferrer" class="nutbieutuong" title="GitHub" aria-label="GitHub">
+          URL GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="vungketqua">
+    <div class="khungchua">
+      <article class="bang bangketqua">
+        <h1 class="tieudebang">✅ Gửi lời nhắn thành công!</h1>
+        <p>Cảm ơn bạn đã liên hệ với <strong>Mai Xuân Toàn</strong>. Dưới đây là thông tin bạn đã gửi:</p>
+
+        <div class="danhsachketqua">
+          <div class="dongketqua">
+            <strong>Họ và tên:</strong>
+            <span id="hienthi-fullname">Đang tải...</span>
+          </div>
+
+          <div class="dongketqua">
+            <strong>Email liên hệ:</strong>
+            <span id="hienthi-email">Đang tải...</span>
+          </div>
+
+          <div class="dongketqua">
+            <strong>Lời nhắn:</strong>
+            <span id="hienthi-message">Đang tải...</span>
+          </div>
+        </div>
+
+        <div class="gioithieukeugoihanhdong">
+          <a href="index.html" class="nut nutchinh">← Quay lại trang chủ</a>
+          <a href="index.html#contact" class="nut nutphu">Gửi lời nhắn khác</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="chantrang">
+    <div class="khungchua chantrangbentrong">
+      <p>© 2026 Mai Xuân Toàn. All rights reserved.</p>
+      <div class="chantranglienket">
+        <a href="https://github.com/chickenwuw-star" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.facebook.com/share/19TuvKY87e/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.tiktok.com/@mxton66" target="_blank" rel="noopener noreferrer">TikTok</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+
+    const fullname = params.get("fullname");
+    const email = params.get("email");
+    const message = params.get("message");
+
+    document.getElementById("hienthi-fullname").textContent = fullname ? fullname : "(Không có dữ liệu)";
+    document.getElementById("hienthi-email").textContent = email ? email : "(Không có dữ liệu)";
+    document.getElementById("hienthi-message").textContent = message ? message : "(Không có dữ liệu)";
+  </script>
+</body>
+
+</html>
