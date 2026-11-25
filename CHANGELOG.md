@@ -1,10 +1,15 @@
-## v7 - 04/11/2026
-- tạo thư mục docs/ và docs/evidence/; tạo 
-README.md, CHANGELOG.md ở gốc, evidence-index.md và AI_LOG.md 
-trong docs/. Chép mẫu từ Phụ lục vào từng tệp (chưa cần điền hết).
+# Lịch sử cập nhật (Changelog)
 
-## V8 – 04/11/2026
-- Thay đổi: thêm README có URL demo và hướng dẫn mở; đổi thư mục Images thành 
-images;
- sửa đường dẫn CSS từ /css/styles.css thành css/styles.css.
-- Chưa kiểm tra: hiển thị trên iPhone.
+Tất cả các thay đổi chính của dự án được ghi nhận lại tại đây.
+
+## [Update 1] - Khởi tạo dự án
+* Tạo cấu trúc thư mục ban đầu và xây dựng khung sườn cơ bản cho trang `index.html` (chưa áp dụng CSS).
+
+## [Update 2] - Hoàn thiện giao diện
+* Hoàn thiện toàn bộ phần định dạng, màu sắc và bố cục trong `css/style.css`.
+* Hoàn thiện đầy đủ nội dung và hình ảnh hiển thị trên `index.html`.
+
+## [Update 3] - Hoàn thiện tài liệu và nâng cấp giao diện
+* Nâng cấp và tối ưu lại cấu trúc mã nguồn trong `index.html`.
+* Bổ sung tài liệu hướng dẫn `README.md`.
+* Thêm nhật ký sử dụng AI (`docs/AI_log.md`) và danh mục minh chứng (`docs/evidence/evidence-index.md`).
