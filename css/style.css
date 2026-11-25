@@ -1,5 +1,4 @@
-﻿/* Reset cơ bản để các trình duyệt hiển thị giống nhau */
-* {
+﻿* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -26,20 +25,19 @@ img {
   max-width: 100%;
 }
 
-/* Khung canh giữa nội dung */
 .khungchua {
   width: 92%;
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* ===== THANH ĐIỀU HƯỚNG ===== */
 .thanhdieuhuong {
   background-color: #0a101f;
   border-bottom: 1px solid #1e293b;
   padding: 12px 0;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .thanhdieuhuongbentrong {
@@ -92,7 +90,6 @@ img {
   border-color: #3b82f6;
 }
 
-/* ===== PHẦN BANNER GIỚI THIỆU ===== */
 .gioithieu {
   background: linear-gradient(120deg, #070b14 0%, #0d1b38 65%, #172554 100%);
   padding: 48px 0;
@@ -187,24 +184,31 @@ img {
   border-color: #3b82f6;
 }
 
+
 .gioithieuhinhanh {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .gioithieukhungthe {
-  border-radius: 14px;
+  width: 280px;
+  height: 360px;
+  border-radius: 50%;
   overflow: hidden;
-  border: 1px solid #2563eb;
+  border: 3px solid #2563eb;
   background-color: #0e1627;
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
 }
 
 .gioithieuanhbanner {
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
+  object-position: center 20%;
 }
 
-/* ===== GIỚI THIỆU & KỸ NĂNG ===== */
+
 .vungbangdieukhien {
   padding: 24px 0 12px;
 }
@@ -306,7 +310,7 @@ img {
   color: #e2e8f0;
 }
 
-/* ===== DỰ ÁN ===== */
+
 .vungduan {
   padding: 14px 0 20px;
 }
@@ -381,7 +385,7 @@ img {
   text-decoration: underline;
 }
 
-/* ===== LIÊN HỆ ===== */
+
 .vunglienhe {
   padding: 4px 0 28px;
 }
@@ -427,7 +431,7 @@ img {
   border-color: #3b82f6;
 }
 
-/* ===== FOOTER ===== */
+
 .chantrang {
   background-color: #050811;
   border-top: 1px solid #1e293b;
@@ -453,7 +457,6 @@ img {
   color: #ffffff;
 }
 
-/* ===== RESPONSIVE CHO MÀN HÌNH NHỎ ===== */
 @media (max-width: 900px) {
   .gioithieubentrong,
   .luoibangdieukhien {
