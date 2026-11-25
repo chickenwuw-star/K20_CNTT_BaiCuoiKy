@@ -13,3 +13,6 @@ Tất cả các thay đổi chính của dự án được ghi nhận lại tạ
 * Nâng cấp và tối ưu lại cấu trúc mã nguồn trong `index.html`.
 * Bổ sung tài liệu hướng dẫn `README.md`.
 * Thêm nhật ký sử dụng AI (`docs/AI_log.md`) và danh mục minh chứng (`docs/evidence/evidence-index.md`).
+
+## [Update 4] - Hoàn thiện index.html lần cuối
+* Lỗi phần liên kết lại với `stye.css` trong phần `index.html`
