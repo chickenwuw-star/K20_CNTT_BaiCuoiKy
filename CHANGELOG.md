@@ -16,3 +16,7 @@ Tất cả các thay đổi chính của dự án được ghi nhận lại tạ
 
 ## [Update 4] - Hoàn thiện index.html lần cuối
 * Lỗi phần liên kết lại với `stye.css` trong phần `index.html`
+
+## [Update 5] - Thêm file ket-qua.html
+* Thêm `ket-qua.html` để sau khi gửi lời nhắn trong phần liên hệ của `index.html` sẽ có kết quả
+* Thêm `ket-qua.html` vô phần `README.md` để có đầy đủ tệp 
